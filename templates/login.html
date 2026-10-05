@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AutoTask 3.0 - Login</title>
+<style>
+*{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;background:#0b0f14;color:#e7edf5;font-family:Segoe UI,Arial,sans-serif}
+.card{width:min(420px,92vw);padding:32px;border:1px solid #283241;border-radius:16px;background:#121821;box-shadow:0 18px 50px #0008}
+h1{margin:0 0 6px;font-size:26px}.sub{color:#91a0b5;margin-bottom:24px}label{display:block;margin:14px 0 6px}
+input{width:100%;padding:12px;border-radius:9px;border:1px solid #344154;background:#0b1119;color:#fff}
+button{width:100%;margin-top:20px;padding:12px;border:0;border-radius:9px;font-weight:700;cursor:pointer}
+.erro{margin-top:14px;color:#ff8585}
+</style>
+</head><body><form class="card" method="post"><h1>AutoTask 3.0</h1><div class="sub">Acesso ao painel de consultas</div>
+<label>Usuário</label><input name="usuario" autocomplete="username" required>
+<label>Senha</label><input type="password" name="senha" autocomplete="current-password" required>
+<button type="submit">Entrar</button>{% if erro %}<div class="erro">{{ erro }}</div>{% endif %}</form></body></html>

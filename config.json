@@ -1,0 +1,18 @@
+{
+  "max_paralelo": 20,
+  "timeout_segundos": 30,
+  "max_linhas_por_loja": 5000,
+  "postgres": {
+    "porta": 5432,
+    "banco": "SEU_BANCO",
+    "usuario": "SEU_USUARIO",
+    "senha": "SUA_SENHA"
+  },
+  "oracle": {
+    "porta": 1521,
+    "sid": "xe",
+    "usuario": "SEU_USUARIO",
+    "senha": "SUA_SENHA",
+    "client_dir": ""
+  }
+}

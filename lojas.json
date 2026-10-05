@@ -1,0 +1,10 @@
+[
+  {
+    "loja": 1,
+    "host": "db001.exemplo.local"
+  },
+  {
+    "loja": 2,
+    "host": "db002.exemplo.local"
+  }
+]
